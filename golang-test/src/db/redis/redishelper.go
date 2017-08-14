@@ -26,7 +26,7 @@ func Open(host string, pwd string, dbNum int) (error) {
 }
 
 func Set(key string, value string) (error) {
-	err := client.Set("key", "value", 0).Err()
+	err := client.Set(key, value, 0).Err()
 	if err != nil {
 		panic(err)
 	}
@@ -35,14 +35,22 @@ func Set(key string, value string) (error) {
 }
 
 func Get(key string) (string, error) {
-	val, err := client.Get("key").Result()
+	val, err := client.Get(key).Result()
 	if err == redis.Nil {
-		fmt.Println("key2 does not exists")
+		fmt.Println("key does not exists")
 	} else if err != nil {
 		panic(err)
 	} else {
-		fmt.Println("key2", val)
+		fmt.Println("key", val)
 	}
 
 	return val, err
+}
+
+/*检查错误信息*/
+func checkErr(err error) {
+	if err != nil {
+		println("mysql checkErr: " + err.Error())
+		panic(err)
+	}
 }

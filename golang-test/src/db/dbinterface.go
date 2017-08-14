@@ -2,6 +2,5 @@ package db
 
 
 type DBBase interface {
-	Open()
-
+	Open(args ...interface{})
 }
