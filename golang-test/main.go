@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
+	"fmt"
 )
 
 func insert(db *sql.DB) {
@@ -11,11 +12,24 @@ func insert(db *sql.DB) {
 	defer stmt.Close()
 
 	if err != nil {
-		log.Println(err)
+		fmt.Println(err)
 		return
 	}
 	stmt.Exec("guotie", "guotie")
 	stmt.Exec("testuser", "123123")
+}
+
+func selectData (db *sql.DB, uname string)  {
+	//rows, err := db.Query("select username from user where username = ?", uname)
+	//if err != nil {
+	//	log.Println(err)
+	//}
+	//defer rows.Close()
+	//
+	//var boo = false
+	//if(rows.Next()){
+	//	boo = true
+	//}
 
 }
 
@@ -23,7 +37,7 @@ func main() {
 	//数据库连接
 	db, err := sql.Open("mysql", "root:mustang@tcp(localhost:3306)/test?timeout=90s&collation=utf8mb4_unicode_ci")
 	if err != nil {
-		log.Fatalf("Open database error: %s\n", err)
+		fmt.Errorf("Open database error: %s\n", err)
 	}
 	defer db.Close()
 
@@ -38,7 +52,6 @@ func main() {
 	if err != nil {
 		log.Println(err)
 	}
-
 	defer rows.Close()
 	var id int
 	var name string
@@ -47,7 +60,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		log.Println(id, name)
+		fmt.Println(id, name)
 	}
 
 	err = rows.Err()
