@@ -20,4 +20,12 @@ func main()  {
 	var sqlcmd string = "INSERT INTO user(username, password) VALUES(?, ?)"
 	mysql.Insert(sqlcmd, "guotie", "guotie")
 
+	res := mysql.Query("SELECT * FROM user", nil)
+	//fmt.Println(res)
+	if res != nil {
+		for k, v := range res{
+			fmt.Println(k, v)
+		}
+	}
+
 }

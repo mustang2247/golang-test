@@ -32,7 +32,7 @@ func connect()  {
 
 /*数据插入操作*/
 func Insert(sqlcmd string, args ...interface{}) {
-	fmt.Printf(sqlcmd, args, "\n")
+	fmt.Println(sqlcmd + "\n")
 	//db, err := sql.Open("mysql", dataSourceName)
 	//checkErr(err)
 
@@ -43,33 +43,13 @@ func Insert(sqlcmd string, args ...interface{}) {
 	checkErr(err)
 	id, err := res.LastInsertId()
 	checkErr(err)
-	fmt.Println(id)
+	fmt.Println(id, "\n")
 }
 
 /*数据查询操作*/
-func Query(sqlcmd string, args ...interface{}) {
-	//db, err := sql.Open("mysql", dataSourceName)
-	//checkErr(err)
-
+func Query(sqlcmd string, args ...interface{}) ([]map[string]string){
 	rows, err := db.Query(sqlcmd)//"SELECT * FROM user")
 	checkErr(err)
-
-	//普通demo
-	//for rows.Next() {
-	//    var userId int
-	//    var userName string
-	//    var userAge int
-	//    var userSex int
-
-	//    rows.Columns()
-	//    err = rows.Scan(&userId, &userName, &userAge, &userSex)
-	//    checkErr(err)
-
-	//    fmt.Println(userId)
-	//    fmt.Println(userName)
-	//    fmt.Println(userAge)
-	//    fmt.Println(userSex)
-	//}
 
 	//字典类型
 	//构造scanArgs、values两个数组，scanArgs的每个值指向values相应值的地址
@@ -80,6 +60,7 @@ func Query(sqlcmd string, args ...interface{}) {
 		scanArgs[i] = &values[i]
 	}
 
+	res := []map[string]string{}
 	for rows.Next() {
 		//将行数据保存到record字典
 		err = rows.Scan(scanArgs...)
@@ -89,8 +70,11 @@ func Query(sqlcmd string, args ...interface{}) {
 				record[columns[i]] = string(col.([]byte))
 			}
 		}
-		fmt.Println(record)
+		res = append(res, record)
+		//fmt.Println(record)
 	}
+
+	return res
 }
 
 /*数据更新操作*/
