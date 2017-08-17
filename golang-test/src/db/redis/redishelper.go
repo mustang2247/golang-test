@@ -13,12 +13,6 @@ func Open(host string, pwd string, dbNum int) (error) {
 		Password: pwd, // no password set
 		DB:       dbNum,  // use default DB
 	})
-	//client = redis.NewClient(&redis.Options{
-	//	Addr:     "127.0.0.1:6379",
-	//	Password: "", // no password set
-	//	DB:       0,  // use default DB
-	//})
-
 
 	pong, err := client.Ping().Result()
 	fmt.Println(pong, err)
