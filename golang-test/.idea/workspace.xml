@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5557db84-19e1-4e3e-976d-83a0e36306fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainjson.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/xmlhelper/XmlHelper.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/xmlhelper/servers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maingoroutine.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/json/JsonHelper.go" afterPath="$PROJECT_DIR$/src/utils/jsonhelper/JsonHelper.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/utils/xml/XmlHelper.go" afterPath="$PROJECT_DIR$/mainxml.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/message/MessageSocket.go" afterPath="$PROJECT_DIR$/src/message/MessageSocket.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,34 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JsonHelper.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/jsonhelper/JsonHelper.go">
+      <file leaf-file-name="MessageSocket.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/message/MessageSocket.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainjson.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mainjson.go">
+      <file leaf-file-name="maingoroutine.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maingoroutine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="189">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
-                <element signature="e#43#80#0" expanded="true" />
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="encode.go" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Go/src/encoding/json/encode.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -101,6 +86,10 @@
         <option value="$PROJECT_DIR$/src/utils/DataInter.go" />
         <option value="$PROJECT_DIR$/src/utils/jsonhelper/JsonHelper.go" />
         <option value="$PROJECT_DIR$/mainjson.go" />
+        <option value="$PROJECT_DIR$/src/net/MessageSocket.go" />
+        <option value="$PROJECT_DIR$/src/socket/MessageSocket.go" />
+        <option value="$PROJECT_DIR$/src/message/MessageSocket.go" />
+        <option value="$PROJECT_DIR$/maingoroutine.go" />
       </list>
     </option>
   </component>
@@ -151,64 +140,7 @@
               <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonhelper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlhelper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="encoding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="encoding" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,12 +184,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Application.Build mainjson.go and run">
-    <configuration name="Build main.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+  <component name="RunManager" selected="Go Application.Build maingoroutine.go and run">
+    <configuration name="Build maingoroutine.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="golang-test" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/maingoroutine.go" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
@@ -294,16 +226,17 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.Build main.go and run" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.Build mainmysql.go and run" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.Build maintest.go and run" />
-      <item index="3" class="java.lang.String" itemvalue="Go Application.Build mainxml.go and run" />
-      <item index="4" class="java.lang.String" itemvalue="Go Application.Build mainjson.go and run" />
+      <item index="0" class="java.lang.String" itemvalue="Go Application.Build mainmysql.go and run" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.Build maintest.go and run" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.Build mainxml.go and run" />
+      <item index="3" class="java.lang.String" itemvalue="Go Application.Build mainjson.go and run" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.Build maingoroutine.go and run" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Application.Build mainjson.go and run" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.Build mainxml.go and run" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Go Application.Build maingoroutine.go and run" />
+        <item index="1" class="java.lang.String" itemvalue="Go Application.Build mainjson.go and run" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.Build mainxml.go and run" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +267,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2592179" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -342,7 +275,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2592179" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31843576" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -391,7 +324,9 @@
     <MESSAGE value="update select" />
     <MESSAGE value="update mysql pool" />
     <MESSAGE value="add utils file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add utils file" />
+    <MESSAGE value="add utils json logic" />
+    <MESSAGE value="add message" />
+    <option name="LAST_COMMIT_MESSAGE" value="add message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,28 +590,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Go/src/encoding/json/encode.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/jsonhelper/JsonHelper.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/xmlhelper/XmlHelper.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#19#71#0" expanded="true" />
+            <element signature="e#19#71#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -689,12 +608,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Go/src/encoding/json/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainjson.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="340">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#43#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/jsonhelper/JsonHelper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/MessageSocket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maingoroutine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
