@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5557db84-19e1-4e3e-976d-83a0e36306fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageClient.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/logutil/Logger.go" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MessageClient.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/maingoroutine.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/maininterface.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainjson.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainmysql.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainredis.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainsocket.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainsocketclient.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainsocketudp.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainsocketudpclient.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/maintest.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainweb.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mainxml.go" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/message/MessageSocket.go" afterPath="$PROJECT_DIR$/src/message/MessageSocket.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MessageClient.go" afterPath="$PROJECT_DIR$/main/MessageClient.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main/main.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/maingoroutine.go" afterPath="$PROJECT_DIR$/main/maingoroutine.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/maininterface.go" afterPath="$PROJECT_DIR$/main/maininterface.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainjson.go" afterPath="$PROJECT_DIR$/main/mainjson.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainmysql.go" afterPath="$PROJECT_DIR$/main/mainmysql.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainredis.go" afterPath="$PROJECT_DIR$/main/mainredis.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainsocket.go" afterPath="$PROJECT_DIR$/main/mainsocket.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainsocketclient.go" afterPath="$PROJECT_DIR$/main/mainsocketclient.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainsocketudp.go" afterPath="$PROJECT_DIR$/main/mainsocketudp.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainsocketudpclient.go" afterPath="$PROJECT_DIR$/main/mainsocketudpclient.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/maintest.go" afterPath="$PROJECT_DIR$/main/maintest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainweb.go" afterPath="$PROJECT_DIR$/main/mainweb.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainxml.go" afterPath="$PROJECT_DIR$/main/mainxml.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +66,10 @@
             </entry>
           </file>
           <file leaf-file-name="MessageClient.go" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/MessageClient.go">
+            <entry file="file://$PROJECT_DIR$/main/MessageClient.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+                <state relative-caret-position="630">
+                  <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
                   <folding>
                     <element signature="e#14#66#0" expanded="true" />
                   </folding>
@@ -89,7 +114,7 @@
       <split-second>
         <leaf>
           <file leaf-file-name="mainsocketclient.go" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mainsocketclient.go">
+            <entry file="file://$PROJECT_DIR$/main/mainsocketclient.go">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="431">
                   <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
@@ -101,10 +126,10 @@
             </entry>
           </file>
           <file leaf-file-name="mainsocket.go" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mainsocket.go">
+            <entry file="file://$PROJECT_DIR$/main/mainsocket.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+                <state relative-caret-position="336">
+                  <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
                   <folding>
                     <element signature="e#14#74#0" expanded="true" />
                   </folding>
@@ -219,6 +244,11 @@
             <path>
               <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang-test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,49 +290,6 @@
               <item name="utils" type="462c0819:PsiDirectoryNode" />
               <item name="logutil" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="builtin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.8.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -325,6 +312,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\job\github.com\golang-test\golang-test\main" />
       <recent name="E:\job\github.com\golang-test\golang-test\src\utils\xmlhelper" />
       <recent name="E:\job\github.com\golang-test\golang-test" />
       <recent name="E:\job\github.com\golang-test\golang-test\src" />
@@ -511,21 +499,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/maintest.go">
+    <entry file="file://$PROJECT_DIR$/main/maintest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -541,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainmysql.go">
+    <entry file="file://$PROJECT_DIR$/main/mainmysql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
@@ -562,7 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -613,14 +601,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainxml.go">
+    <entry file="file://$PROJECT_DIR$/main/mainxml.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maininterface.go">
+    <entry file="file://$PROJECT_DIR$/main/maininterface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
@@ -649,7 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainjson.go">
+    <entry file="file://$PROJECT_DIR$/main/mainjson.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -663,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maingoroutine.go">
+    <entry file="file://$PROJECT_DIR$/main/maingoroutine.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
@@ -724,7 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsocketudp.go">
+    <entry file="file://$PROJECT_DIR$/main/mainsocketudp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
@@ -734,7 +722,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsocketudpclient.go">
+    <entry file="file://$PROJECT_DIR$/main/mainsocketudpclient.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
@@ -812,7 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainredis.go">
+    <entry file="file://$PROJECT_DIR$/main/mainredis.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
@@ -822,17 +810,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maintest.go">
+    <entry file="file://$PROJECT_DIR$/main/maintest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
-            <element signature="e#14#49#0" expanded="true" />
+            <element signature="e#14#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsocketclient.go">
+    <entry file="file://$PROJECT_DIR$/main/mainsocketclient.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
@@ -874,7 +862,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainweb.go">
+    <entry file="file://$PROJECT_DIR$/main/mainweb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
@@ -920,16 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainsocket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/message/MessageSocket.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -940,10 +918,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessageClient.go">
+    <entry file="file://$PROJECT_DIR$/main/mainsocket.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="336">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/MessageClient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#14#66#0" expanded="true" />
           </folding>

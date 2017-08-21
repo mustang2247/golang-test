@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./src/db/mysql"
+	"../src/db/mysql"
 	"fmt"
 )
 
