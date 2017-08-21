@@ -3,8 +3,8 @@ package main
 import (
 	"net"
 	"fmt"
-	"utils/logutil"
-	"message"
+	"github.com/mustang2247/golang-utils/utils/logutil"
+	"github.com/mustang2247/golang-utils/message"
 )
 
 func main() {

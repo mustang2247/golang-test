@@ -3,7 +3,7 @@ package main
 import (
 
 	"fmt"
-	"db/redis"
+	"github.com/mustang2247/golang-utils/db/redis"
 )
 
 

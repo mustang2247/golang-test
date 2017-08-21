@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../src/db/mysql"
+	"github.com/mustang2247/golang-utils/db/mysql"
 	"fmt"
 )
 

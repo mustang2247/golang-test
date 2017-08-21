@@ -2,7 +2,7 @@
 package main
 
 import (
-	"utils/jsonhelper"
+	"github.com/mustang2247/golang-utils/utils/jsonhelper"
 	"fmt"
 )
 

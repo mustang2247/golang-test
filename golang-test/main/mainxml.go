@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/xml"
-	"utils/xmlhelper"
+	"github.com/mustang2247/golang-utils/utils/xmlhelper"
 	"fmt"
 )
 
