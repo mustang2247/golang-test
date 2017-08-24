@@ -3,29 +3,27 @@ package main
 
 import (
 	"fmt"
+	"runtime"
+	"sync"
 )
 
 func main()  {
-	// go routine
-	//go Go()
-	//time.Sleep(2 * time.Second)
-	//fmt.Println("hell")
+	fmt.Println(runtime.NumCPU())
+	runtime.GOMAXPROCS(runtime.NumCPU())
 
-	c := make(chan bool)
-	go func() {
-		fmt.Println("gogogo")
-		c <- true
-		close(c)//使用for range必须明确关闭
-	}()
-	//<-c
-
-	for v := range c {
-		fmt.Println(v)
+	wg := sync.WaitGroup{}
+	wg.Add(10)
+	for i := 0; i<10; i++ {
+		go Go(&wg, i)
 	}
-
-	// 单项通道和双向通道
+	wg.Wait()
 }
 
-func Go() {
-	fmt.Println("gogo go")
+func Go(wg *sync.WaitGroup, index int) {
+	a := 1
+	for i := 0; i < 10000000; i++ {
+		a += i
+	}
+	fmt.Println(index, a)
+	wg.Done()
 }
